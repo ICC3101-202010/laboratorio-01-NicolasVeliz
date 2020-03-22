@@ -17,10 +17,19 @@ namespace lab1
             int Lanzar = rand.Next(0, 3);
             return Lanzar;
         }
+        public Person()
+        {
+            Name = "Bob Kunga";
+        }
         public Person(string name, string lastname)
         {
             this.Name = name;
             this.Lastname = lastname;
+
+        }
+        public string Getname()
+        {
+            return Name;
 
         }
 
