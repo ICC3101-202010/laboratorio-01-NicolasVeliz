@@ -6,10 +6,19 @@ using System.Threading.Tasks;
 
 namespace lab1
 {
-    class Program
+     class Program
     {
         static void Main(string[] args)
         {
+            Person persona1 = new Person();
+            persona1.Name = "Bob";
+            persona1.Lastname = "Kunga";
+
+            Console.WriteLine(persona1.Name);
+            Console.WriteLine(persona1.Lastname);
+            Console.WriteLine(persona1.Lanzar());
+            Console.ReadKey();
+
         }
     }
 }
