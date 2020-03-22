@@ -10,9 +10,13 @@ namespace lab1
     {
         static void Main(string[] args)
         {
-            Person persona1 = new Person();
-            persona1.Name = "Bob";
-            persona1.Lastname = "Kunga";
+            Person persona1 = new Person("Bob","Kunga");
+            //persona1.Name = "Bob";
+            //persona1.Lastname = "Kunga";
+
+
+
+
 
             Console.WriteLine(persona1.Name);
             Console.WriteLine(persona1.Lastname);
